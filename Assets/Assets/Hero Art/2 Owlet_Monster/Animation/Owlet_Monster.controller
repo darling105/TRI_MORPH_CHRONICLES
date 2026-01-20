@@ -1,6 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1107 &-8646534921559303812
+--- !u!1102 &-6225672333099355717
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Owlet_Monster_Jump
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 69b0eacb1ce5c8940936d19878a29566, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1107 &-2835775117671690082
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -10,35 +36,32 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: -1390684241543058386}
-    m_Position: {x: 340, y: 130, z: 0}
+    m_State: {fileID: -101869434422296749}
+    m_Position: {x: 340, y: 110, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -7058412798657249764}
-    m_Position: {x: 375, y: 195, z: 0}
+    m_State: {fileID: 6695658960281734355}
+    m_Position: {x: 375, y: 175, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -6997437532088725511}
-    m_Position: {x: 410, y: 260, z: 0}
+    m_State: {fileID: -2479365321838613839}
+    m_Position: {x: 410, y: 240, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -7191766631270812326}
-    m_Position: {x: 445, y: 325, z: 0}
+    m_State: {fileID: 4794019938993700202}
+    m_Position: {x: 445, y: 305, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 7314765358474085068}
-    m_Position: {x: 480, y: 390, z: 0}
+    m_State: {fileID: -1284714870709799864}
+    m_Position: {x: 480, y: 370, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 6272727286370074083}
-    m_Position: {x: 515, y: 455, z: 0}
+    m_State: {fileID: -6225672333099355717}
+    m_Position: {x: 515, y: 435, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1514406016843495192}
-    m_Position: {x: 550, y: 520, z: 0}
+    m_State: {fileID: 164331130441777401}
+    m_Position: {x: 550, y: 500, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 2214631990857379855}
-    m_Position: {x: 585, y: 585, z: 0}
+    m_State: {fileID: -345901943937618429}
+    m_Position: {x: 585, y: 565, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -6758334410470345692}
-    m_Position: {x: 620, y: 650, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -2967306166583898539}
-    m_Position: {x: 655, y: 715, z: 0}
+    m_State: {fileID: 8563805413971570324}
+    m_Position: {x: 620, y: 630, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -48,15 +71,15 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -1390684241543058386}
---- !u!1102 &-7191766631270812326
+  m_DefaultState: {fileID: -101869434422296749}
+--- !u!1102 &-2479365321838613839
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pink_Monster_Jump
+  m_Name: Owlet_Monster_Climb
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -69,20 +92,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: db2c47d3fb419144299830cb6360e055, type: 2}
+  m_Motion: {fileID: 7400000, guid: 3d892c802ebcb3543842eb1e1a0f982a, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-7058412798657249764
+--- !u!1102 &-1284714870709799864
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pink_Monster_Run
+  m_Name: Owlet_Monster_Hurt
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -95,20 +118,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 69b940562f035bc46b448ca8b26e176e, type: 2}
+  m_Motion: {fileID: 7400000, guid: ca4f8b6a5d72ea948ad70931bcd7bd08, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-6997437532088725511
+--- !u!1102 &-345901943937618429
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pink_Monster_Walk
+  m_Name: Owlet_Monster_Throw
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -121,20 +144,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: fdd31c323c12f9944b88e74a0db2e0b4, type: 2}
+  m_Motion: {fileID: 7400000, guid: 5b5e0f8027270f24290be4cea00ac023, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-6758334410470345692
+--- !u!1102 &-101869434422296749
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pink_Monster_Throw
+  m_Name: Owlet_Monster_Idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -147,59 +170,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 6f52295aeef271149b61ebc3448e3f11, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-2967306166583898539
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Pink_Monster_Climb
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9d1deee928965d8488ca0e5a9bd8863a, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-1390684241543058386
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Pink_Monster_Idle
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: bb06ce2248692974cb86defb4ab2c5cd, type: 2}
+  m_Motion: {fileID: 7400000, guid: fcb76a479297f534b9cc23afbecc44af, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -211,13 +182,13 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pink_Monster
+  m_Name: Owlet_Monster
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-    m_StateMachine: {fileID: -8646534921559303812}
+    m_StateMachine: {fileID: -2835775117671690082}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -227,14 +198,14 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &1514406016843495192
+--- !u!1102 &164331130441777401
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pink_Monster_Hurt
+  m_Name: Owlet_Monster_Run
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -247,20 +218,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 7a01a1ec78150134cb6ee914e3f318d9, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0ded9500c8eb48e4686b4650ee6fdca3, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &2214631990857379855
+--- !u!1102 &4794019938993700202
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pink_Monster_Death
+  m_Name: Owlet_Monster_Death
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -273,20 +244,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f96e19ca164258f43b11c58903c493b5, type: 2}
+  m_Motion: {fileID: 7400000, guid: 4b91ab7e54fb1454dace346c932b99c9, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &6272727286370074083
+--- !u!1102 &6695658960281734355
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pink_Monster_Attack_2
+  m_Name: Owlet_Monster_Attack_1
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -299,20 +270,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 7879af8c6a6689c4db1e36c2be867c03, type: 2}
+  m_Motion: {fileID: 7400000, guid: 27fe11dc841b1f54093ae287120a253e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &7314765358474085068
+--- !u!1102 &8563805413971570324
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pink_Monster_Attack
+  m_Name: Owlet_Monster_Walk
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -325,7 +296,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5f512f2c07a7a3a45a11915a2b1ae3ef, type: 2}
+  m_Motion: {fileID: 7400000, guid: 673439091cc6c9c45a3c8bb459a0f9d9, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
